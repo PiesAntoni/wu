@@ -80,7 +80,7 @@ int main(int argc, char** argv) {
 							screenEdge = 2;
 						} else {
 							SDL_SetWindowFullscreen(window, SDL_WINDOW_SHOWN);
-							screenEdge = 40;
+							screenEdge = 20;
 						}
 						fullscreen = !fullscreen;
 						break;
